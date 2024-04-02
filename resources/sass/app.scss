@@ -1,0 +1,36 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=poppins');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+:root {
+  --bs-primary: #4564e5;
+  --soft-blue: #f1f5fb;
+  --white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serifl;
+}
+
+input {
+  padding: 10px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+  border-color: var(--bs-primary);
+}
+
+.form-control, .form-select,
+.btn {
+  border-radius: 0.5rem;
+  padding: 10px 18px;
+}
