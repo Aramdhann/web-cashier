@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    @include('components.style')
+    @include('components.style', ['title'=>'Sign In'])
 </head>
 <body>
     <div class="d-flex justify-content-center align-items-center vh-100 bg-body-tertiary">
