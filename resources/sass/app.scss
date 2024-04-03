@@ -20,7 +20,7 @@
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 input {
@@ -53,35 +53,39 @@ input {
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 12px;
-  border-radius: 6px;
-  font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
 }
 
 .navbar .navbar-nav .nav-item .nav-link.active,
 .navbar .navbar-nav .nav-item .nav-link:hover {
-  background-color: var(--bs-primary);
-  color: var(--white);
+    background-color: var(--bs-primary);
+    color: var(--white);
 }
 
 .nav-pills a {
     color: #4564e5;
 }
 
-.nav-pills .active, .nav-pills a:hover {
+.nav-pills .active,
+.nav-pills a:hover {
     background-color: #4564e5 !important;
     color: var(--white);
 }
 
-// .card {
-//   border-radius: 1rem;
-//   border: 1px solid transparent;
-//   transition: 0.3s all ease;
-// }
+.login {
+    min-width: 450px;
+}
 
-// .card:hover {
-//   border: var(--bs-primary);
-// }
+.card {
+    border-radius: 1rem;
+    transition: 0.3s all ease;
+}
+
+.card:hover {
+    border: 1px solid var(--bs-primary);
+}

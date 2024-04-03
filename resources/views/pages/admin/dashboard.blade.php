@@ -4,8 +4,8 @@
 <div class="container">
     <div class="row g-4">
         <h2 class="fw-bold mb-4">Order List</h2>
-        <div class="d-flex flex-wrap gap-3 align-items-stretch">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="d-flex flex-wrap gap-3 justify-content-center">
+            <div class="col-12 col-lg-5">
                 <div class="card">
                     <div class="card-body p-4">
                         <i class='bx bxs-food-menu fs-1 text-primary'></i>
@@ -14,7 +14,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="col-12 col-lg-5">
                 <div class="card">
                     <div class="card-body p-4">
                         <i class='bx bx-money fs-1 text-primary'></i>
@@ -23,7 +23,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="col-12 col-lg-5">
                 <div class="card">
                     <div class="card-body p-4">
                         <i class='bx bx-male-female fs-1 text-primary'></i>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="col-12 col-lg-5">
                 <div class="card">
                     <div class="card-body p-4">
                         <i class='bx bxs-user-pin fs-1 text-primary'></i>

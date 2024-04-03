@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="d-flex justify-content-center align-items-center vh-100 bg-body-tertiary">
-        <div class="card rounded-4 p-3">
+        <div class="card login rounded-4 p-3">
             <div class="card-body">
                 <div class="d-flex align-items-center gap-2 mb-3">
                     <img src="{{ url('assets/images/logo.png') }}" alt="logo kasir" style="width: 32px">
